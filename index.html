@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soares Secret</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Diário Y2K</h1>
+    </header>
+    <main>
+        <section id="new-post">
+            <h2>Adicionar Novo Post</h2>
+            <form id="post-form">
+                <textarea id="post-text" placeholder="Escreva aqui..."></textarea>
+                <input type="file" id="post-image" accept="image/*">
+                <input type="file" id="post-video" accept="video/*">
+                <input type="file" id="post-audio" accept="audio/*">
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section id="posts">
+            <h2>Posts</h2>
+            <div id="posts-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
